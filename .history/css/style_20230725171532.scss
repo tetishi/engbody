@@ -68,21 +68,7 @@ a {
 
 //fv
 .fv {
-    height: 410px;
-    position: relative;
-}
-.fv-img {
-    background-image: url(../img/bg_mv.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 0 0 0 50px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 70%;
-    height: 410px;
-    z-index: -1;
+    background-image: url(../i);
 }
 .page-title {
     font-size: 4.2rem;
