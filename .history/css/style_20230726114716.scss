@@ -8,7 +8,7 @@ body {
     font-family: 'Hiragino Sans', sans-serif;
     color: #111111;
 }
-h2 h3 .page-title {
+h2 h3 {
     font-family: 'Josefin Sans', sans-serif;
 }
 img {
@@ -55,7 +55,6 @@ a {
     padding: 0 20px;
 }
 .counseling-btn-top {
-    display: none;
     font-weight: bold;
     color: #fff;
     font-size: 1.2rem;
@@ -85,26 +84,19 @@ a {
     height: 410px;
     z-index: -1;
 }
-.fv-left-wrapper {
-    position: absolute;
-    top: 161px;
-}
 .page-title {
     font-size: 4.2rem;
     font-style: italic;
-    line-height: 1;
-    .emphasis {
+    background-color: #fff;
+    span {
         color: #EB51C2;
     }
-}
-.white-background {
-    background-color: #fff;
-    padding: 5px;
 }
 .page-title-bottom {
     font-size: 1.3rem;
     font-weight: bold;
     margin: 12px 0 19px;
+    background-color: #fff;
 }
 .counseling-btn {
     font-weight: bold;
