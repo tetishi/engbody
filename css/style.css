@@ -269,6 +269,83 @@ a {
   background-color: #EB51C2;
 }
 
+.price-list {
+  padding-bottom: 40px;
+}
+
+.price-item {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.price-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.price-item .price-box {
+  padding: 40px 0 30px 0;
+}
+
+.price-item .recommend-circle {
+  background-color: #fff;
+  border: 2px solid #EB51C2;
+  border-radius: 70px;
+  width: 80%;
+  position: absolute;
+  top: -24px;
+  left: 35px;
+}
+
+.price-item .recommend {
+  font-size: 2rem;
+  color: #EB51C2;
+  font-weight: bold;
+  padding: 10px 0 7px;
+}
+
+.price-item .course {
+  color: #EB51C2;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.price-item .course-price {
+  font-size: 4.8rem;
+}
+
+.price-item .admission-fee {
+  font-size: 1.6rem;
+}
+
+.price-item .course-top {
+  font-size: 1.8rem;
+}
+
+.price-item .course-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.price-item .rental-box {
+  padding: 30px 0 35px 0;
+}
+
+.price-item .restaurant-box {
+  padding: 30px 0 25px 0;
+}
+
+.price-item .diet-box {
+  padding: 30px 0;
+}
+
+.course-border {
+  border: 1px solid #ccc;
+  margin: 0 20px;
+}
+
 .faq-title {
   color: #111111;
 }
@@ -276,4 +353,107 @@ a {
 .faq-title span {
   color: #EB51C2;
   margin-bottom: 35px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 26px;
+  font-size: 1.5rem;
+}
+
+.faq-item:last-of-type {
+  margin-bottom: 50px;
+}
+
+.faq-item summary {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.faq-item summary::before {
+  content: "Q";
+  color: #EB51C2;
+  margin-right: 20px;
+}
+
+.faq-item summary::after {
+  content: "";
+  transform: translateY(-25%) rotate(45deg);
+  width: 7px;
+  height: 7px;
+  margin-left: 10px;
+  border-bottom: 3px solid #EB51C2;
+  border-right: 3px solid #EB51C2;
+  transition: transform .5s;
+  position: absolute;
+  right: 10px;
+}
+
+.faq-item summary::before, .faq-item p::before {
+  font-weight: bold;
+  font-size: 2.6rem;
+}
+
+.faq-item p {
+  display: flex;
+  opacity: 0;
+  transition: transform .5s, opacity .5s;
+}
+
+.faq-item p::before {
+  content: "A";
+  color: #EB51C2;
+  font-size: 2.6rem;
+  margin-right: 20px;
+}
+
+.faq-item[open] summary {
+  padding-bottom: 0;
+}
+
+.faq-item[open] summary:after {
+  transform: rotate(225deg);
+}
+
+.faq-item[open] p {
+  transform: none;
+  opacity: 1;
+  padding: 25px 0 20px;
+}
+
+.counseling-container {
+  background-color: #EB51C2;
+  padding: 30px 0 20px;
+  text-align: center;
+}
+
+.counseling-container .invite-message {
+  font-size: 2.6rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.counseling-container .counseling-btn-bottom {
+  background-color: #fff;
+  color: #EB51C2;
+  font-weight: 600;
+  font-size: 1.3rem;
+  width: 300px;
+  border-radius: 50px;
+  padding: 20px 65px;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #111111;
+  height: 111px;
+}
+
+.footer .footer-text {
+  text-align: center;
+  color: #fff;
 }
