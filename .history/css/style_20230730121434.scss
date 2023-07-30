@@ -13,7 +13,7 @@ body {
     // min-height: 100%;
 
 }
-h2, h3, .page-title, .concept-top, .faq-item summary::before, .faq-item p::before {
+h2 h3 .page-title {
     font-family: 'Josefin Sans', sans-serif;
 }
 img {
@@ -53,22 +53,17 @@ a {
     top: 0;
     left: 0;
     z-index: 999;
-    // background-color: #fff;
+    background-color: #fff;
 }
 .header-inner {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    // align-items: center;
     height: 60px;
     padding: 0 20px;
 }
-.nav-title {
-    img {
-        vertical-align: text-top;
-    }
-}
 .counseling-btn-top {
-    opacity: 0;
+    // display: none;
     font-weight: bold;
     color: #fff;
     font-size: 1.2rem;
@@ -106,8 +101,6 @@ a {
     font-size: 4.2rem;
     font-style: italic;
     line-height: 1;
-    font-weight: normal;
-
 }
 .white-background {
     background-color: #fff;

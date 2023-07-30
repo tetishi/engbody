@@ -2,18 +2,15 @@
 
 html {
     font-size: 62.5%;
-    // height: 100%;
+    height: 100%;
 }
 body {
     font-size: 1.4rem;
     font-family: 'Hiragino Sans', sans-serif;
     color: #111111;
-    // height: 100%;
-    // position: relative;
-    // min-height: 100%;
-
+    height: 100%;
 }
-h2, h3, .page-title, .concept-top, .faq-item summary::before, .faq-item p::before {
+h2 h3 .page-title {
     font-family: 'Josefin Sans', sans-serif;
 }
 img {
@@ -53,7 +50,6 @@ a {
     top: 0;
     left: 0;
     z-index: 999;
-    // background-color: #fff;
 }
 .header-inner {
     display: flex;
@@ -62,13 +58,8 @@ a {
     height: 60px;
     padding: 0 20px;
 }
-.nav-title {
-    img {
-        vertical-align: text-top;
-    }
-}
 .counseling-btn-top {
-    opacity: 0;
+    display: none;
     font-weight: bold;
     color: #fff;
     font-size: 1.2rem;
@@ -106,8 +97,6 @@ a {
     font-size: 4.2rem;
     font-style: italic;
     line-height: 1;
-    font-weight: normal;
-
 }
 .white-background {
     background-color: #fff;
@@ -428,24 +417,20 @@ a {
         // margin-bottom: 20px;    
     }
 }
-// .free-counseling {
-//     padding-bottom: 111px;
-// }
 
 //footer
-// main {
-//     position: relative;
-//     min-height: 100%;
-//     padding-bottom: 111px;
-// }
+main {
+    position: relative;
+    min-height: ;
+}
 .footer {
     background-color: #111111;
-    // height: 111px;
-    // position: absolute;
-    // bottom: 0;
+    height: 111px;
+    position: absolute;
+    bottom: 0;
     .footer-text {
         text-align: center;
         color: #fff;
-        padding: 50px 0;
+        // padding: 50px 0;
     }
 }

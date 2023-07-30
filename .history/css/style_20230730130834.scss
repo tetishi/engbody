@@ -13,7 +13,7 @@ body {
     // min-height: 100%;
 
 }
-h2, h3, .page-title, .concept-top, .faq-item summary::before, .faq-item p::before {
+h2 h3 .page-title {
     font-family: 'Josefin Sans', sans-serif;
 }
 img {
@@ -106,8 +106,6 @@ a {
     font-size: 4.2rem;
     font-style: italic;
     line-height: 1;
-    font-weight: normal;
-
 }
 .white-background {
     background-color: #fff;
@@ -363,7 +361,7 @@ a {
             margin-left: 10px;
             border-bottom: 3px solid #EB51C2;
             border-right: 3px solid #EB51C2;
-            transition: transform .5s;
+            c
             position: absolute;
             right: 10px;
         }
