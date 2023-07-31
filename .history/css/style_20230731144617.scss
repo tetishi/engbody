@@ -290,16 +290,6 @@ a {
     margin-top: 20px;
     display: none;
     transition: all 1s;
-    animation-name: fade-in;
-    animation-duration: .5s;
-    @keyframes fade-in {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
-    }
     .worker-item {
         margin-bottom: 15px;
         &:nth-of-type(3) {

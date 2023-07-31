@@ -46,5 +46,4 @@ $('.option').click(function() {
     var index = $('.option').index(this);
     $('.option').removeClass('option-active');
     $(this).addClass('option-active');
-    $('.worker-list').removeClass('show').eq(index).addClass('show');
 });

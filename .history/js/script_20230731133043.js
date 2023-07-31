@@ -43,8 +43,6 @@ $(window).on('load', function() {
 
 //トレーナー、スタッフ選択
 $('.option').click(function() {
-    var index = $('.option').index(this);
-    $('.option').removeClass('option-active');
+    $('').removeClass('option-active');
     $(this).addClass('option-active');
-    $('.worker-list').removeClass('show').eq(index).addClass('show');
 });

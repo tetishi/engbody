@@ -274,6 +274,7 @@ a {
 
 .trainer-wrapper {
   background-color: #EB51C2;
+  padding-bottom: 40px;
 }
 
 .select-option {
@@ -290,14 +291,31 @@ a {
 
 .select-option .option::after {
   content: "";
-  border: 2px solid #fff;
   width: 171px;
   display: block;
   margin-top: 14px;
 }
 
+.select-option .option-active::after {
+  content: "";
+  border: 2px solid #fff;
+}
+
 .worker-list {
   margin-top: 20px;
+  display: none;
+  transition: all 1s;
+  animation-name: fade-in;
+  animation-duration: .5s;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .worker-list .worker-item {
@@ -305,7 +323,7 @@ a {
 }
 
 .worker-list .worker-item:nth-of-type(3) {
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .worker-list .worker-item img {
@@ -321,8 +339,11 @@ a {
 }
 
 .worker-list .staff {
-  padding-bottom: 40px;
   margin-bottom: 0;
+}
+
+.show {
+  display: block;
 }
 
 .studio-title {
