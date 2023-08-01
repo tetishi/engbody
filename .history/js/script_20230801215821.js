@@ -75,7 +75,7 @@ $(function() {
 
     pagetop.hide();
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 250) {
+        if ($(this).scrollTop() > 100) {
             pagetop.fadeIn();
         } else {
             pagetop.fadeOut();
@@ -84,5 +84,5 @@ $(function() {
     pagetop.click(function() {
         $('body, html').animate({ scrollTop: 0 }, 500);
         return false;
-    });
-});
+    })
+})
