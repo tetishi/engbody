@@ -355,6 +355,67 @@ a {
   color: #EB51C2;
 }
 
+.swiper-wrapper {
+  width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.swiper-button-prev .fa-greater-than,
+.swiper-button-next .fa-greater-than {
+  width: 10px;
+  height: 6px;
+}
+
+.swiper-button-prev {
+  left: -20px;
+}
+
+.swiper-button-next {
+  right: -20px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.swiper-button-prev::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f104";
+  color: #EB51C2;
+  font-weight: 900;
+}
+
+.swiper-button-next::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f105";
+  color: #EB51C2;
+  font-weight: 900;
+}
+
+.swiper-pagination-bullets {
+  position: static;
+  margin: 15px 0 20px;
+}
+
+.swiper-pagination-bullet {
+  width: 7px;
+  height: 7px;
+  background: #EB51C2;
+  margin-left: 9px !important;
+}
+
+.swiper-pagination-bullet:first-child {
+  margin-left: 0 !important;
+}
+
 .price-wrapper {
   background-color: #EB51C2;
 }
