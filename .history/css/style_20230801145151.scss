@@ -393,13 +393,7 @@ a {
     background-color: #EB51C2;
 }
 .price-inner {
-    padding: 0;
-}
-.price-title {
-    padding: 40px 20px 0 20px;
-    span {
-        margin-bottom: 0;
-    }
+    padding-right: 0;
 }
 .price-list {
     padding-bottom: 40px;
@@ -410,7 +404,7 @@ a {
     // max-width: 400px;
     // width: 100%;
     overflow-x: scroll;
-    padding-right: 20px;
+    padding-right: 0;
 }
 .price-item {
     background-color: #fff;
@@ -423,9 +417,9 @@ a {
     width: 80%;
     margin-left: 20px;
     
-    // &:first-of-type {
-    //     margin-left: 0;
-    // }
+    &:first-of-type {
+        margin-left: 0;
+    }
     // &:last-of-type {
     //     margin-bottom: 0;
     // }
