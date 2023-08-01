@@ -483,13 +483,8 @@ a {
     border: 1px solid #ccc;
     margin: 0 20px;
 }
-.price-container {
-    position: relative;
-}
+.price
 .price-scroll {
-    position: absolute;
-    top: 45%;
-    right: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;

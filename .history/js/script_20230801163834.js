@@ -62,9 +62,4 @@ const swiper = new Swiper(".swiper", {
     }
 });
 
-//price scroll
-$(".price-list").scroll(function() {
-    if ($(this).scrollLeft() > 20) {
-        $(".price-scroll").fadeOut();
-    }
-});
+//

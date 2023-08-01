@@ -62,9 +62,9 @@ const swiper = new Swiper(".swiper", {
     }
 });
 
-//price scroll
+//プライススクロール
 $(".price-list").scroll(function() {
     if ($(this).scrollLeft() > 20) {
-        $(".price-scroll").fadeOut();
+        $(".price-scroll").fadeOut
     }
-});
+})
