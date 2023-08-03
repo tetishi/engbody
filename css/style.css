@@ -686,6 +686,164 @@ a {
   color: #EB51C2;
 }
 
+@media screen and (min-width: 600px) {
+  /* base_tb */
+  body {
+    font-size: 1.6rem;
+  }
+  .section-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .sp-img {
+    display: none;
+  }
+  .pc-img {
+    display: none;
+  }
+  .sp-br {
+    display: none;
+  }
+  .tb-img {
+    display: block;
+  }
+  .counseling-btn-top {
+    width: 200px;
+  }
+  .fv {
+    height: 500px;
+  }
+  .fv-img {
+    border-radius: 0 0 0 50px;
+    height: 500px;
+  }
+  .fv-left-wrapper {
+    top: 150px;
+    left: 30px;
+  }
+  .page-title {
+    font-size: 9rem;
+  }
+  .page-title-bottom {
+    font-size: 2.8rem;
+  }
+  .concept-text {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .select-option .option {
+    position: relative;
+    width: 100%;
+  }
+  .select-option .option::after {
+    content: "";
+    position: absolute;
+    border: none;
+    width: 100%;
+    height: 2px;
+  }
+  .select-option .option-active::after {
+    border: none;
+    background-color: #fff;
+  }
+  .worker-list {
+    display: flex;
+    margin-top: 40px;
+  }
+  .worker-list .worker-item {
+    margin-bottom: 0;
+    margin-right: 15px;
+    width: 32%;
+  }
+  .worker-list .worker-item:nth-of-type(3) {
+    margin-bottom: 0px;
+    margin-right: 0;
+  }
+  .worker-list .worker-item .worker-greeting {
+    font-size: 1.5rem;
+    box-shadow: 0 10px 34px rgba(0, 0, 0, 0.06);
+  }
+  .studio-title {
+    font-size: 6.4rem;
+  }
+  .swiper-container {
+    max-width: 1100px;
+  }
+  .swiper-wrapper {
+    max-width: 1100px;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 79px;
+    height: 79px;
+  }
+  .swiper-button-prev {
+    left: -38px;
+  }
+  .swiper-button-next {
+    right: -38px;
+  }
+  .swiper-button-prev::before {
+    font-size: 3.2rem;
+  }
+  .swiper-button-next::before {
+    font-size: 3.2rem;
+  }
+  .swiper-pagination-bullets {
+    margin: 25px 0 60px;
+  }
+  .swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    margin-left: 10px !important;
+  }
+  .price-title {
+    padding: 41px 0 0 20px;
+  }
+  .price-title span {
+    margin: 2px 0 0 0;
+  }
+  .price-list {
+    overflow-x: auto;
+  }
+  .price-item {
+    position: relative;
+    width: 350px;
+    margin-left: 20px;
+  }
+  .price-item:first-of-type {
+    margin-left: 20px;
+  }
+  .price-item .price-box {
+    padding: 40px 0 20px 0;
+  }
+  .price-item .admission-fee {
+    font-size: 1.8rem;
+  }
+  .price-item .rental-box {
+    padding: 22px 0 20px 0;
+  }
+  .price-item .restaurant-box {
+    padding: 20px 0 20px 0;
+  }
+  .price-item .diet-box {
+    padding: 20px 0 29px;
+  }
+  .faq-title span {
+    margin-bottom: 43px;
+  }
+  .faq-item:last-of-type {
+    margin-bottom: 60px;
+  }
+  .faq-item[open] p {
+    padding: 22px 0 21px;
+    align-items: center;
+  }
+  .pagetop {
+    right: 30px;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   /* base_pc */
   body {
