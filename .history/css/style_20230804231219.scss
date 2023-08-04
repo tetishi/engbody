@@ -1112,13 +1112,23 @@ a {
         }
     }
 
-    //pagetop_pc
+    //pagetop
     .pagetop {
+        // position: fixed;
         bottom: 20px;
+        // right: 20px;
+        // z-index: 100;
         .pagetop-link {
+            // background-color: #fff;
+            // border-radius: 50%;
             width: 80px;
             height: 80px;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            // box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
             .pagetop-arrow {
+                // color: #EB51C2;
                 font-size: 3rem;
             }
         }

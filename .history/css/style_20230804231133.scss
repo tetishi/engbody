@@ -1085,40 +1085,74 @@ a {
         }
     }
     .faq-item[open] p {
+        // transform: none;
+        // opacity: 1;
         padding: 22px 0 21px;
         align-items: center;
     }
 
-    //Counseling_pc
+    //Counseling
     .counseling-container {
+        // background-color: #EB51C2;
         padding: 50px 0 50px;
+        // text-align: center;
         .invite-message {
             font-size: 6.4rem;
             font-weight: normal;
+            // color: #fff;
             margin-bottom: 15px;
         }
         .counseling-btn-bottom {
+            // background-color: #fff;
+            // color: #EB51C2;
+            // font-weight: 600;
             font-size: 2rem;
             width: 360px;
+            // text-align: center;
+            // vertical-align: middle;
+            // border-radius: 50px;
             padding: 30px 50px;
+            // margin: 0 auto;
+            // margin-bottom: 20px;    
         }
     }
+    // .free-counseling {
+    //     padding-bottom: 111px;
+    // }
 
-    //footer_pc
+    //footer
+    // main {
+    //     position: relative;
+    //     min-height: 100%;
+    //     padding-bottom: 111px;
+    // }
     .footer {
+        // background-color: #111111;
         .footer-text {
+            // text-align: center;
+            // color: #fff;
             padding: 100px 0;
             font-size: 2.2rem;
         }
     }
 
-    //pagetop_pc
+    //pagetop
     .pagetop {
+        // position: fixed;
         bottom: 20px;
+        // right: 20px;
+        // z-index: 100;
         .pagetop-link {
+            // background-color: #fff;
+            // border-radius: 50%;
             width: 80px;
             height: 80px;
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            // box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
             .pagetop-arrow {
+                // color: #EB51C2;
                 font-size: 3rem;
             }
         }
