@@ -1074,6 +1074,7 @@ a {
     }
 
 
+    //ここから
     //FAQ_pc
     .faq-title {
         span {
@@ -1085,10 +1086,10 @@ a {
     //         margin-bottom: 60px;
     //     }
     // }
-    // .faq-item[open] p {
-    //     padding: 22px 0 21px;
-    //     align-items: center;
-    // }
+    .faq-item[open] p {
+        padding: 22px 0 21px;
+        align-items: center;
+    }
 
     //Counseling_pc
     .counseling-container {
