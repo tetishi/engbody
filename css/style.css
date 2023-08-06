@@ -54,6 +54,14 @@ a {
   display: none;
 }
 
+.top-wave {
+  transform: translateY(1px);
+}
+
+.bottom-wave {
+  transform: translateY(-1px);
+}
+
 .header {
   position: fixed;
   width: 100%;
