@@ -844,14 +844,14 @@ a {
   .sp-img {
     display: none;
   }
-  .pc-img {
-    display: block;
-  }
   .tb-img {
     display: none;
   }
   .sp-br {
     display: none;
+  }
+  .pc-img {
+    display: block;
   }
   .header-inner {
     height: 80px;
