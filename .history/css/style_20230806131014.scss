@@ -2,11 +2,16 @@
 
 html {
     font-size: 62.5%;
+    // height: 100%;
 }
 body {
     font-size: 1.4rem;
     font-family: 'Hiragino Sans', sans-serif;
     color: #111111;
+    // height: 100%;
+    // position: relative;
+    // min-height: 100%;
+
 }
 h2, h3, .page-title, .concept-top, .faq-item summary::before, .faq-item p::before {
     font-family: 'Josefin Sans', sans-serif;
@@ -16,6 +21,7 @@ img {
 }
 .section-inner {
     padding: 0 20px;
+    // margin: 0 auto;
 }
 .section-title {
     font-size: 4rem;
@@ -53,6 +59,7 @@ a {
     top: 0;
     left: 0;
     z-index: 999;
+    // background-color: #fff;
 }
 .header-inner {
     display: flex;
@@ -223,6 +230,9 @@ a {
         font-size: 2.2rem;
         font-weight: 600;
         padding: 20px 36px 25px 30px;
+        // &:last-of-type {
+        //     padding: 25px 35px 20px 30px;
+        // }
     }
     .concept-description {
         padding: 0 30px 30px 30px;
@@ -269,8 +279,10 @@ a {
         width: 100%;
         &::after {
             content: "";
+            // position: absolute;  //ここ消して良いかも
             height: 4px;
             width: 100%;
+            // width: 171px;
             display: block;
             margin-top: 14px;
         }
@@ -279,6 +291,7 @@ a {
         &::after {
             content: "";
             background-color: #fff;
+            // border: 2px solid #fff;
         }
     }
 }
@@ -287,6 +300,7 @@ a {
 }
 .worker-list {
     margin-top: 20px;
+    // display: none;
     transition: all 1s;
     animation-name: fade-in;
     animation-duration: .5s;
@@ -337,9 +351,15 @@ a {
 }
 .swiper-wrapper {
     max-width: 500px;
+    // width: 100%;
 }
+// .swiper-slide {
+//     width: 100%;
+//     height: 100%;
+// }
 .swiper-button-prev,
 .swiper-button-next {
+    // background-image: none;
     width: 40px;
     height: 40px;
     border-radius: 50%;
