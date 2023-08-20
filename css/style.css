@@ -93,6 +93,19 @@ a {
   vertical-align: middle;
   border-radius: 50px;
   padding: 12px 15px;
+  position: relative;
+}
+
+.counseling-btn-top a::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: transparent;
 }
 
 .fv {
@@ -211,6 +224,19 @@ a {
   vertical-align: middle;
   border-radius: 50px;
   padding: 16px 25px;
+  position: relative;
+}
+
+.counseling-btn a::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: transparent;
 }
 
 .catchphrase {
@@ -282,6 +308,19 @@ a {
   padding: 20px 65px;
   margin: 0 auto;
   margin-bottom: 40px;
+  position: relative;
+}
+
+.counseling-btn-middle a::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: transparent;
 }
 
 .trainer-wrapper {
@@ -664,6 +703,19 @@ a {
   border-radius: 50px;
   padding: 20px 65px;
   margin: 0 auto;
+  position: relative;
+}
+
+.counseling-container .counseling-btn-bottom a::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: auto;
+  content: "";
+  background-color: transparent;
 }
 
 .footer {

@@ -202,18 +202,7 @@ a {
     vertical-align: middle;
     border-radius: 50px;
     padding: 16px 25px;
-    position: relative;
-    a::after {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1;
-        pointer-events: auto;
-        content: "";
-        background-color: transparent;
-    }
+    a::
 }
 
 //concept
@@ -279,18 +268,6 @@ a {
     padding: 20px 65px;
     margin: 0 auto;
     margin-bottom: 40px;
-    position: relative;
-    a::after {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        z-index: 1;
-        pointer-events: auto;
-        content: "";
-        background-color: transparent;
-    }
 }
 
 // trainer
@@ -621,18 +598,6 @@ a {
         border-radius: 50px;
         padding: 20px 65px;
         margin: 0 auto;
-        position: relative;
-        a::after {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 1;
-            pointer-events: auto;
-            content: "";
-            background-color: transparent;
-        }
     }
 }
 
