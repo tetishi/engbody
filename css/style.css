@@ -502,6 +502,11 @@ a {
   padding-top: 30px;
   overflow-x: scroll;
   padding-right: 20px;
+  scrollbar-width: none;
+}
+
+.price-list::-webkit-scrollbar {
+  display: none;
 }
 
 .price-item {
