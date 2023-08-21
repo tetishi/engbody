@@ -890,7 +890,7 @@ a {
 
     //concept_pc
     .concept-outer {
-        max-width: 1440px;
+        width: 1440px;
         margin: 0 auto;
     }
     .catchphrase {
@@ -902,6 +902,9 @@ a {
     }
     .concept-text {
         font-size: 1.6rem;
+    }
+    .concept-container {
+        
     }
     .training-box {
         position: relative;
