@@ -722,10 +722,10 @@ a {
   background-color: #111111;
 }
 
-.footer .footer-text {
-  text-align: center;
-  color: #fff;
+.footer .footer-logo {
   padding: 50px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .pagetop {
