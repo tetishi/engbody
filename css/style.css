@@ -260,6 +260,7 @@ a {
 .concept-text {
   font-size: 1.5rem;
   margin-bottom: 20px;
+  line-height: 1.8;
 }
 
 .concept-text-box {
@@ -800,6 +801,7 @@ a {
   .concept-text {
     margin-bottom: 32px;
     text-align: center;
+    line-height: 2;
   }
   .worker-list {
     display: flex;
