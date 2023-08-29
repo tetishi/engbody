@@ -425,14 +425,13 @@ a {
 .swiper-pagination-bullet {
     width: 7px;
     height: 7px;
+    background: #EB51C2;
     margin: 0 8.7px 0 0 !important;
     &:last-child {
         margin: 0 !important;
     }
 }
-.swiper-pagination-bullet-active {
-    background: #EB51C2;
-}
+.swiper-pagination-bullet
 
 //price
 .price-wrapper {

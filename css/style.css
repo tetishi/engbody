@@ -477,12 +477,15 @@ a {
 .swiper-pagination-bullet {
   width: 7px;
   height: 7px;
-  background: #EB51C2;
-  margin-left: 9px !important;
+  margin: 0 8.7px 0 0 !important;
 }
 
-.swiper-pagination-bullet:first-child {
-  margin-left: 0 !important;
+.swiper-pagination-bullet:last-child {
+  margin: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #EB51C2;
 }
 
 .price-wrapper {
@@ -857,7 +860,7 @@ a {
   .swiper-pagination-bullet {
     width: 13px;
     height: 13px;
-    margin-left: 10px !important;
+    margin: 0 10px 0 0 !important;
   }
   .price-title {
     padding: 41px 0 0 20px;
