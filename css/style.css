@@ -9,7 +9,7 @@ body {
   color: #111111;
 }
 
-h2, h3, .page-title, .concept-top, .faq-item summary::before, .faq-item p::before {
+h2, h3, .page-title, .concept-top, .faq-item summary::before, .faq-item p::before, .staff {
   font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -819,6 +819,7 @@ a {
   .worker-list .worker-item .worker-greeting {
     font-size: 1.5rem;
     box-shadow: 0 10px 34px rgba(0, 0, 0, 0.06);
+    height: 153px;
   }
   .studio-title {
     font-size: 6.4rem;
@@ -1024,6 +1025,9 @@ a {
   }
   .worker-list .worker-item {
     width: 34%;
+  }
+  .worker-list .worker-item .worker-greeting {
+    height: 113px;
   }
   .show {
     display: block;
