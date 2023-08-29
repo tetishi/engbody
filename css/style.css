@@ -94,6 +94,7 @@ a {
   border-radius: 50px;
   padding: 12px 15px;
   position: relative;
+  line-height: 1;
 }
 
 .counseling-btn-top a::after {
@@ -225,6 +226,7 @@ a {
   border-radius: 50px;
   padding: 16px 25px;
   position: relative;
+  line-height: 1;
 }
 
 .counseling-btn a::after {
@@ -311,6 +313,7 @@ a {
   margin: 0 auto;
   margin-bottom: 40px;
   position: relative;
+  line-height: 1;
 }
 
 .counseling-btn-middle a::after {
@@ -712,6 +715,7 @@ a {
   padding: 20px 65px;
   margin: 0 auto;
   position: relative;
+  line-height: 1;
 }
 
 .counseling-container .counseling-btn-bottom a::after {
