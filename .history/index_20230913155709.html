@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head prefix="og:http://ogp.me/ns#">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="ENGBODY">
+    <meta property="og:description" content="英会話＆パーソナルトレーニングジムのサイトです。">
+    <meta property="og:url" content="https://tetishi.github.io/engbody/">
+    <meta property="og:image" content="https://tetishi.github.io/engbody/img/ogp.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="ENGBODY">
     <title>ENGBODY</title>
     <script src="https://kit.fontawesome.com/44371eb32e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -15,7 +23,8 @@
         <div class="header-inner">
             <h2 class="nav-title">
                 <a href="#">
-                    <img src="img/engbody.svg" alt="ENGBODY">
+                    <img class="sp-img tb-img" src="img/engbody.svg" alt="ENGBODYのロゴモバイル用">
+                    <img class="pc-img" src="img/engbody_pc.svg" alt="ENGBODYのロゴPC用">
                 </a>
             </h2>
             <nav class="header-nav">
@@ -48,11 +57,10 @@
 
         <!-- concept -->
         <section id="concept" class="concept-wrapper">
-            <div class="section-outer">
+            <div class="concept-outer">
                 <div class="section-inner">
                     <h2 class="catchphrase">
-                        YOU CAN<br class="sp"> 
-                        DO IT!
+                        YOU CAN<br class="sp-br">DO IT!
                     </h2>
                     <p class="section-under-title">
                         英語とトレーニングの<span class="emphasis">蜜月関係</span>
@@ -112,24 +120,24 @@
             </div>
         </section>
 
-        <img src="img/top-wave.svg" alt="波型の上の区切り">
+        <img class="top-wave" src="img/top-wave.svg" alt="波型の上の区切り">
         <section class="trainer-wrapper">
-            <div class="section-outer">
-                <div class="section-inner">
-                    <h2 class="section-title">
-                        Our Trainer
-                        <span>トレーナー</span>
-                    </h2>
-                    <div class="select-option">
-                        <p class="option option-active">
-                            トレーナー
-                        </p>
-                        <div class="select"></div>
-                        <p class="option">
-                            スタッフ
-                        </p>
-                    </div>
-                    <ul class="worker-list show">
+            <div class="section-inner">
+                <h2 class="section-title">
+                    Our Trainer
+                    <span>トレーナー</span>
+                </h2>
+                <div class="select-option">
+                    <p class="option option-active">
+                        トレーナー
+                    </p>
+                    <div class="select"></div>
+                    <p class="option">
+                        スタッフ
+                    </p>
+                </div>
+                <div class="worker-container show">
+                    <ul class="worker-list">
                         <li class="worker-item">
                             <picture>
                                 <source srcset="img/trainer01.webp" type="image/webp">
@@ -158,6 +166,8 @@
                             </p>
                         </li>
                     </ul>
+                </div>
+                <div class="worker-container">
                     <ul class="worker-list">
                         <li class="worker-item">
                             <picture>
@@ -177,19 +187,19 @@
                                 Hi, please let me know anytime if you have any questions. We will fully support you!
                             </p>
                         </li>
-                    </ul>
+                    </ul>    
                 </div>
             </div>
         </section>
-        <img src="img/bottom-wave.svg" alt="波型の下の区切り">
+        <img class="bottom-wave" src="img/bottom-wave.svg" alt="波型の下の区切り">
 
         <section class="section-wrapper">
-            <div class="section-outer">
-                <div class="section-inner">
-                    <h2 class="section-title studio-title">
-                        Studio
-                        <span>スタジオ</span>
-                    </h2>
+            <div class="section-inner">
+                <h2 class="section-title studio-title">
+                    Studio
+                    <span>スタジオ</span>
+                </h2>
+                <div class="swiper-container">
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -211,26 +221,22 @@
                                 </picture>    
                             </div>    
                         </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-prev">
-                            
-                        </div>
-                        <div class="swiper-button-next">
-                            <!-- <i class="fa-solid fa-greater-than" style="color: #eb51c2;"></i> -->
-                        </div>
                     </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>    
                 </div>
             </div>
         </section>
 
-        <img src="img/top-wave.svg" alt="波型の上の区切り">
+        <img class="top-wave" src="img/top-wave.svg" alt="波型の上の区切り">
         <section class="section-wrapper price-wrapper">
-            <div class="section-outer">
-                <div class="section-inner price-inner">
-                    <h2 class="section-title price-title">
-                        Price
-                        <span>料金</span>
-                    </h2>
+            <div class="section-inner price-inner">
+                <h2 class="section-title price-title">
+                    Price
+                    <span>料金</span>
+                </h2>
+                <div class="price-container">
                     <ul class="price-list">
                         <li class="price-item">
                             <div class="price-box">
@@ -359,56 +365,61 @@
                         </li>
                     </ul>
                     <div class="price-scroll">
-                        <i class="fa-solid fa-arrow-right"></i>
-                        <span class="scroll-text">                        スクロール
+                        <span class="scroll-arrow material-symbols-outlined">
+                            east
                         </span>
-                    </div>
+                        <span class="scroll-text">
+                            スクロール
+                        </span>
+                    </div>    
                 </div>
             </div>
         </section>
-        <img src="img/bottom-wave.svg" alt="波型の下の区切り">
+        <img class="bottom-wave" src="img/bottom-wave.svg" alt="波型の下の区切り">
 
         <section class="section-wrapper">
-            <div class="section-outer">
-                <div class="section-inner">
-                    <h2 class="section-title faq-title">
-                        FAQ
-                        <span>よくあるご質問</span>
-                    </h2>
-                    <div class="faq-box">
-                        <details class="faq-item">
-                            <summary class="faq-top-text">
-                                見学や体験は可能ですか？
-                            </summary>
-                            <p class="faq-bottom-text">
-                                無料カウンセリングの際に見学が可能です。フォームに見学・体験希望の欄がございますので内容をご確認しチェックを入れてください。
-                            </p>
-                        </details>
-                        <details class="faq-item">
-                            <summary class="faq-top-text">
-                                用意するものは何がありますか？
-                            </summary>
-                            <p class="faq-bottom-text">
-                                シューズをご持参ください。ウェアとタオルは無料でレンタルが可能です。
-                            </p>
-                        </details>
-                        <details class="faq-item">
-                            <summary class="faq-top-text">
-                                シャワールームはありますか？
-                            </summary>
-                            <p class="faq-bottom-text">
-                                5つのシャワールームがございます。ボディソープ・シャンプー・リンスなどのアメニティやドライヤーもご用意しております。
-                            </p>
-                        </details>
-                    </div>
+            <div class="section-inner">
+                <h2 class="section-title faq-title">
+                    FAQ
+                    <span>よくあるご質問</span>
+                </h2>
+                <div class="faq-box">
+                    <details class="faq-item">
+                        <summary class="faq-top-text">
+                            見学や体験は可能ですか？
+                        </summary>
+                        <p class="faq-bottom-text">
+                            無料カウンセリングの際に見学が可能です。フォームに見学・体験希望の欄がございますので内容をご確認しチェックを入れてください。
+                        </p>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-top-text">
+                            用意するものは何がありますか？
+                        </summary>
+                        <p class="faq-bottom-text">
+                            シューズをご持参ください。ウェアとタオルは無料でレンタルが可能です。
+                        </p>
+                    </details>
+                    <details class="faq-item">
+                        <summary class="faq-top-text">
+                            シャワールームはありますか？
+                        </summary>
+                        <p class="faq-bottom-text">
+                            5つのシャワールームがございます。ボディソープ・シャンプー・リンスなどのアメニティやドライヤーもご用意しております。
+                        </p>
+                    </details>
                 </div>
             </div>
         </section>
 
         <div class="free-counseling">
-            <picture>
+            <picture class="sp-img">
                 <source srcset="img/sp_counseling_top.webp" type="image/webp">
                 <img src="img/sp_counseling_top.jpg" alt="アジア人、黒人、白人の女性3人がトレーニングウェアを着て肩を組んで笑顔でこちらを見ている写真">
+            </picture>
+            <picture class="pc-img tb-img">
+                <source srcset="img/pc_counseling_top.webp" type="image/webp">
+                <img src="img/pc_counseling_top.jpg" alt="アジア人、黒人、白人の女性3人がトレーニングウェアを着て肩を組んで笑顔でこちらを見ている写真">
             </picture>
             <div class="counseling-container">
                 <h3 class="invite-message">
@@ -422,16 +433,19 @@
 
     </main>
     <footer class="footer">
-        <div class="footer-text">
-            ENGBODY
+        <div class="footer-logo">
+            <a href="#">
+                <img class="sp-img tb-img" src="img/footer_logo.svg" alt="ENGBODYのヘッダーロゴモバイル用">
+                <img class="pc-img" src="img/footer_logo_pc.svg" alt="ENGBODYのヘッダーロゴPC用">
+            </a>
         </div>
     </footer>
     
-    <a href="#" class="pagetop">
-        <div class="pagetop-arrow">
-            <i class="fas fa-angle-up"></i>
-        </div>
-    </a>
+    <div class="pagetop">
+        <a href="#" class="pagetop-link">
+            <i class="fas fa-angle-up pagetop-arrow"></i>
+        </a>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
