@@ -245,10 +245,10 @@ a {
   color: #EB51C2;
   font-size: 5.6rem;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1;
   font-style: italic;
   position: relative;
-  top: -29px;
+  top: -18px;
 }
 
 .section-under-title {
@@ -256,7 +256,7 @@ a {
   font-weight: bold;
   text-align: center;
   position: relative;
-  top: -26px;
+  top: -20px;
   letter-spacing: .1em;
 }
 
@@ -284,7 +284,7 @@ a {
 .concept-text-box .concept-title {
   font-size: 2.2rem;
   font-weight: 600;
-  padding: 20px 36px 25px 30px;
+  padding: 20px 0px 25px 30px;
 }
 
 .concept-text-box .concept-description {
