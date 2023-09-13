@@ -4,11 +4,10 @@ $(document).ready(function() {
         if($(this).scrollTop() > 250) {
             $('.counseling-btn-top').css('opacity', 1);
             $('.header').css('background-color', '#fff');
-            $('.header').css('box-shadow', '0px 3px 6px 0px rgba(0, 0, 0, .5)');
+            $('.header').css('box-shadow', 0px 3px 6px 0px rgba(0, 0, 0, .5);');
         } else {
             $('.counseling-btn-top').css('opacity', 0);
             $('.header').css('background-color', 'transparent');
-            $('.header').css('box-shadow', 'none');
         }
     })
 })

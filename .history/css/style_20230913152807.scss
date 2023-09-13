@@ -59,6 +59,7 @@ a {
     top: 0;
     left: 0;
     z-index: 999;
+    box-shadow: 0;
 }
 .header-inner {
     display: flex;
@@ -1024,7 +1025,7 @@ a {
     //FAQ_pc
     .faq-title {
         span {
-            margin-bottom: 40px;
+            margin-bottom: 43px;
         }
     }
 

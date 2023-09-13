@@ -8,7 +8,7 @@ $(document).ready(function() {
         } else {
             $('.counseling-btn-top').css('opacity', 0);
             $('.header').css('background-color', 'transparent');
-            $('.header').css('box-shadow', 'none');
+            $('.header').css('box-shadow', '0px 3px 6px 0px rgba(0, 0, 0, .5);');
         }
     })
 })
