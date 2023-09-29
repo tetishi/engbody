@@ -94,7 +94,7 @@ function fadeAnime() {
     //ふわっ
     $('.js-fade-up-trigger').each(function() {
         //js-fade-up-triggerというクラス名が
-        var elemPos = $(this).offset().top-0;//要素より0px上の
+        var elemPos = $(this).offset().top-100;//要素より50px上の
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();
         if (scroll >= elemPos - windowHeight) {
