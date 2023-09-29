@@ -242,21 +242,7 @@ a {
     line-height: 1.8;
 }
 .js-fade-up {
-    animation-name: fadeUpAnime;
-    animation-duration: .5s;
-    animation-fill-mode: forwards;
-    opacity: 0;
-}
-@keyframes fadeUpAnime {
-    from {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    animation-name: fade;
 }
 .js-fade-up-trigger {
     opacity: 0;

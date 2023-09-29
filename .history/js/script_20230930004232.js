@@ -98,12 +98,12 @@ function fadeAnime() {
         var scroll = $(window).scrollTop();
         var windowHeight = $(window).height();
         if (scroll >= elemPos - windowHeight) {
-            $(this).addClass('js-fade-up');//画面内に入ったらfadeUpというクラス名を追記
+            $(this).addClass('fadeUp');//画面内に入ったらfadeUpというクラス名を追記
         }
     });
 }
 
-//画面を上記指定位置までスクロールしたら要素を動かす
+//画面をスクロールしたら動かしたい場合
 $(window).scroll(function() {
     fadeAnime();//アニメーション用の関数を呼ぶ
 });
